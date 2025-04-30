@@ -129,10 +129,10 @@ int main(){
 
         }
         
-        SDL_FillRect(superficie, &apagar_retangulo, COR_PRETA);
+        SDL_FillRect(superficie, &apagar_retangulo, COR_PRETA); 
         PreencherCirculo(superficie, Circulo, COR_BRANCA);
 
-        PreencherCirculo(superficie, Sombra_Circulo, COR_BRANCA);
+        PreencherCirculo(superficie, Sombra_Circulo, COR_BRANCA); // TODO: debugar essa joça
         PreencherRaios(superficie, Raios, COR_CINZA);
 
         SDL_UpdateWindowSurface(janela);
