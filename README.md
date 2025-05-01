@@ -43,7 +43,7 @@ Este projeto consiste em um **simulador de raytracing 2D** implementado em lingu
 
 ---
 
-## ▶️ Como Executar
+## ▶️ Como Executar (work in progress)
 
 Dentro do diretório `build/`, rode:
 
@@ -60,7 +60,6 @@ Dentro do diretório `build/`, rode:
 
 1. **Reflexões e Transparência**  
    - Implementar cálculo de reflexão de raios em superfícies circulares.  
-   - Adicionar coeficiente de transparência para simular objetos translúcidos.
 
 2. **Múltiplos Objetos e Texturas**  
    - Permitir carregar vários círculos com diferentes cores e materiais.  
@@ -72,19 +71,6 @@ Dentro do diretório `build/`, rode:
 
 4. **Interface Interativa**  
    - Painel de controle para alterar parâmetros (número de raios, tamanho de objetos, intensidade de luz).  
-   - Configuração carregada de arquivo JSON/INI.
-
----
-
-## 🤝 Contribuições
-
-Contribuições são bem-vindas! Para colaborar:
-
-1. Fork este repositório.  
-2. Crie uma branch com sua feature: `git checkout -b feature/MinhaFeature`.  
-3. Commit suas mudanças: `git commit -m "Adiciona MinhaFeature"`.  
-4. Push para o branch: `git push origin feature/MinhaFeature`.  
-5. Abra um Pull Request descrevendo sua contribuição.
 
 ---
 
